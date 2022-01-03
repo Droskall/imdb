@@ -305,3 +305,91 @@ footer {
 #carrouselUp span:hover:nth-child(2) {
     color: yellow !important;
 }
+
+.wrapper {
+    background: white;
+    height: 200px;
+    width: 632px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.button-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.carousel {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease;
+}
+
+.card {
+    min-width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+}
+
+#spiderman {
+    background-image: url("img/favorites/spiderman.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#hawkeye {
+    background-image: url("img/favorites/hawkeye.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#witcher {
+    background-image: url("img/favorites/The-Witcher-Season-2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#arcane {
+    background-image: url("img/favorites/arcane.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#casadepapel {
+    background-image: url("img/favorites/casa.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#freeguy {
+    background-image: url("img/favorites/freeguy.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#boba {
+    background-image: url("img/favorites/boba.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#matrix {
+    background-image: url("img/favorites/matrix.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#tuches {
+    background-image: url("img/favorites/tuches.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
