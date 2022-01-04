@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/018d8912e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
 <body>
 
@@ -35,7 +36,9 @@
 
                 <div id="searchIMDB">
                     <input type="text" placeholder="Search IMDB">
-                    <div id="wen"><i class="fas fa-search"></i></div>
+                    <div id="wen">
+                        <i class="fas fa-search"></i>
+                    </div>
                 </div>
             </div>
 
@@ -53,7 +56,32 @@
 
     <section id="partOne">
         <div id="carrouselLeft"></div>
-        <div id="carrouselUp"><span>Up next</span></div>
+        <div id="carrouselUp"><span>Up next</span>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"></div>
+
+                    <div class="swiper-slide"></div>
+
+                    <div class="swiper-slide"></div>
+
+                    <div class="swiper-slide"></div>
+
+                    <div class="swiper-slide"></div>
+
+                    <div class="swiper-slide"></div>
+
+                    <div class="swiper-slide"></div>
+
+                    <div class="swiper-slide"></div>
+
+                    <div class="swiper-slide"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
     </section>
 
     <section></section>
@@ -64,22 +92,29 @@
         <p>Fan Favorites</p>
         <p>This week's top TV and movies</p>
         <div id="fanFavoritesCarrousel">
-            <div class="wrapper">
-                <ul class="carousel" data-target="carousel">
-                    <li class="card" data-target="card" id="witcher"></li>
-                    <li class="card" data-target="card" id="spiderman"></li>
-                    <li class="card" data-target="card" id="hawkeye"></li>
-                    <li class="card" data-target="card" id="arcane"></li>
-                    <li class="card" data-target="card" id="casadepapel"></li>
-                    <li class="card" data-target="card" id="freeguy"></li>
-                    <li class="card" data-target="card" id="boba"></li>
-                    <li class="card" data-target="card" id="matrix"></li>
-                    <li class="card" data-target="card" id="tuches"></li>
-                </ul>
-                <div class="button-wrapper">
-                    <button data-action="slideLeft"><</button>
-                    <button data-action="slideRight">></button>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide" id="spiderman"></div>
+
+                    <div class="swiper-slide" id="witcher"></div>
+
+                    <div class="swiper-slide" id="arcane"></div>
+
+                    <div class="swiper-slide" id="boba"></div>
+
+                    <div class="swiper-slide" id="casa"></div>
+
+                    <div class="swiper-slide" id="hawyeke"></div>
+
+                    <div class="swiper-slide" id="matrix"></div>
+
+                    <div class="swiper-slide" id="freeguy"></div>
+
+                    <div class="swiper-slide" id="tuches"></div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </section>
@@ -93,7 +128,32 @@
 
     <section id="inTheaters">
         <p>In theaters</p>
-        <div id="inTheatersCarrousel"></div>
+        <div id="inTheatersCarrousel">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide" id="spidermant"></div>
+
+                    <div class="swiper-slide" id="cliford"></div>
+
+                    <div class="swiper-slide" id="encanto"></div>
+
+                    <div class="swiper-slide" id="ghostbuster"></div>
+
+                    <div class="swiper-slide" id="kingsman"></div>
+
+                    <div class="swiper-slide" id="matrixt"></div>
+
+                    <div class="swiper-slide" id="mystere"></div>
+
+                    <div class="swiper-slide" id="sing"></div>
+
+                    <div class="swiper-slide" id="tuchest"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
     </section>
 
     <section></section>
@@ -134,6 +194,7 @@
     </footer>
 </div>
 
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script src="app.js"></script>
 
 </body>

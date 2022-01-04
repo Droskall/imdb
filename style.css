@@ -235,7 +235,7 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 10%;
 }
 
 #logoNetworks div {
@@ -276,7 +276,8 @@ footer {
 }
 
 #inTheaters {
-    margin-top: 2%;
+    margin-top: 25%;
+    height: 50rem;
 }
 
 #inTheatersCarrousel {
@@ -306,54 +307,38 @@ footer {
     color: yellow !important;
 }
 
-.wrapper {
-    background: white;
-    height: 200px;
-    width: 632px;
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
+.swiper {
+    width: 100%;
+    height: 540px;
 }
 
-.button-wrapper {
+.swiper-slide {
+    background-color: black;
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-}
-
-.carousel {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    display: flex;
-    position: absolute;
-    left: 0;
-    transition: all 1s ease;
-}
-
-.card {
-    min-width: 200px;
-    height: 200px;
-    margin-right: 1rem;
+    object-fit: cover;
 }
 
 #spiderman {
     background-image: url("img/favorites/spiderman.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#hawkeye {
-    background-image: url("img/favorites/hawkeye.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#witcher {
-    background-image: url("img/favorites/The-Witcher-Season-2.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -364,7 +349,13 @@ footer {
     background-repeat: no-repeat;
 }
 
-#casadepapel {
+#boba {
+    background-image: url("img/favorites/boba.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#casa {
     background-image: url("img/favorites/casa.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -376,8 +367,8 @@ footer {
     background-repeat: no-repeat;
 }
 
-#boba {
-    background-image: url("img/favorites/boba.png");
+#hawyeke {
+    background-image: url("img/favorites/hawkeye.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -388,8 +379,69 @@ footer {
     background-repeat: no-repeat;
 }
 
+#witcher {
+    background-image: url("img/favorites/witcher.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 #tuches {
     background-image: url("img/favorites/tuches.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#spidermant {
+    background-image: url("img/theaters/spiderman.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#matrixt {
+    background-image: url("img/theaters/matrix.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#tuchest {
+    background-image: url("img/theaters/tuches.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#cliford {
+    background-image: url("img/theaters/cliford.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#ghostbuster {
+    background-image: url("img/theaters/ghostbuster.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#encanto {
+    background-image: url("img/theaters/encanto.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#kingsman {
+    background-image: url("img/theaters/kingsman.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#sing {
+    background-image: url("img/theaters/sing.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#mystere {
+    background-image: url("img/theaters/mystere.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
