@@ -51,8 +51,6 @@ let posters = [
 ]
 
 const container = document.querySelector('.left div.nb1 div');
-const nextButton = document.querySelector('.left div.nb1 .next');
-const previousButton = document.querySelector('.left div.nb1 .previous');
 
 const captionContainer = [
     ".bottom span",
@@ -71,3 +69,4 @@ const upNextContainer = [
 let section1Carousel = new Carousel(images, container, 'div.nb1 img', time, title, text, posters, captionContainer, upNextContainer);
 section1Carousel.createHtmlBase();
 section1Carousel.nextAuto();
+
