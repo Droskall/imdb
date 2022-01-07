@@ -197,31 +197,128 @@ section {
     margin: 0 auto;
 }
 
-#partOne {
-    height: 500px;
-    margin-top: 2%;
+section.nb1 {
+    width: 85%;
+    margin: 20px auto;
     display: flex;
-    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
 }
 
-#carrouselLeft, #carrouselUp {
+/*
+ * left
+ */
+.left {
+    position: relative;
+    width: 55%;
+}
+
+.left div.nb1 {
+    position: relative;
+    display: flex;
+}
+
+.left div.nb1 div {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+div.nb1 img {
+    height: 506px;
+    transform: translateX(0);
+    transition: transform 1500ms;
+}
+
+div.nb2 {
+    display: flex;
+    background: linear-gradient(rgb(21, 21, 21, 0), rgb(21 ,21 , 21, 80%), rgb(21, 21, 21, 100%));
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+div.nb2 > div {
+    margin-left: 2rem;
+}
+
+div.nb2 div:first-child button {
+    position: absolute;
+    top: 0;
+    border-radius: 0;
+    border: none;
+    background-color: rgba(50, 50, 50, 0.80);
+    font-size: 2rem;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 2rem;
+    font-size: 2rem;
+    color: #9e9e9e;
+}
+
+.bottom h2 {
+    font-size: 3.5rem;
+    color: #eaeaea;
+}
+
+.bottom div:last-child {
+    padding-bottom: 2rem;
+}
+
+#poster {
+    height: 200px;
+    width: 150px;
+}
+
+/*
+ * right
+ */
+.right {
+    width: 30%;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+}
+
+.right h2 {
+    color: #dcdc45;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.right button {
+    font-size: 0.8rem;
+    padding: 0.65rem 0.9rem;
+}
+
+.right span, .right p  {
+    color: #9e9e9e;
+    margin-left: 1rem;
+}
+
+.right h3 {
+    font-size: 1.8rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.right .images {
+    height: 11rem;
+    margin-bottom: 2rem;
+}
+
+.right img {
     height: 100%;
 }
 
-#carrouselLeft {
-    width: 70%;
-}
-
-#carrouselUp {
-    width: 25%;
-    margin-left: 2%;
-    position: relative;
-}
-
-#carrouselUp span {
-    color: #ffb700;
-    font-weight: bold;
-    margin-bottom: 2%;
+.right .text {
+    padding-left: 2rem;
 }
 
 footer {
@@ -330,113 +427,4 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-#spiderman {
-    background-image: url("img/favorites/spiderman.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#arcane {
-    background-image: url("img/favorites/arcane.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#boba {
-    background-image: url("img/favorites/boba.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#casa {
-    background-image: url("img/favorites/casa.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#freeguy {
-    background-image: url("img/favorites/freeguy.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#hawyeke {
-    background-image: url("img/favorites/hawkeye.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#matrix {
-    background-image: url("img/favorites/matrix.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#witcher {
-    background-image: url("img/favorites/witcher.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#tuches {
-    background-image: url("img/favorites/tuches.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#spidermant {
-    background-image: url("img/theaters/spiderman.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-
-#matrixt {
-    background-image: url("img/theaters/matrix.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#tuchest {
-    background-image: url("img/theaters/tuches.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#cliford {
-    background-image: url("img/theaters/cliford.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#ghostbuster {
-    background-image: url("img/theaters/ghostbuster.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#encanto {
-    background-image: url("img/theaters/encanto.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#kingsman {
-    background-image: url("img/theaters/kingsman.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#sing {
-    background-image: url("img/theaters/sing.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#mystere {
-    background-image: url("img/theaters/mystere.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
